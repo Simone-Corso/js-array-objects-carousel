@@ -33,5 +33,9 @@ const images = [
 
 
 //Creo un ciclo for per immagini
+let lista = '';
 
-for (let i = 0;)
+for (let i = 0; i < images.length; i++){
+    //inserirò il div lista con img, con delle variabili pronte all'esterno
+    lista += `<div class="lista"><img src="../img/${ images[i]}</div>`;
+}
