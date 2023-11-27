@@ -18,7 +18,7 @@
     height: 100px;
     border: solid 2px blue;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -39,6 +39,7 @@ img{
     border: solid 2px red;
     height: 100px;
     width: 100px;
+    font-size: 90px;
 }
 
 .dopo{
@@ -46,4 +47,5 @@ img{
     border: solid 2px red;
     height: 100px;
     width: 100px;
+    font-size: 90px;
 }
