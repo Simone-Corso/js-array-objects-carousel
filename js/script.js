@@ -37,10 +37,10 @@ let lista = '';
 
 for (let i = 0; i < images.length; i++){
     //inserirò il div lista con img, con delle variabili pronte all'esterno
-    lista += `<div class="lista"><img src="../img/${ images[i]}</div>`;
+    lista += `<div class="lista"><img src="./img/${images}></div>`;
 };
 console.log(lista);
 
 //stamperò la variabile lista
 
-    const slider = document.querySelector('.slider').innerHTML = lista;
+    const slider = document.querySelector('container > slider').innerHTML = lista;
