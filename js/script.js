@@ -44,3 +44,13 @@ console.log(lista);
 //stamperò la variabile lista
 
     const slider = document.querySelector('container > slider').innerHTML = lista;
+
+
+//creo delle varibili prima e dopo per il click di cambio immagine
+
+let prima = document.querySelector('prima');
+let dopo = document.querySelector('dopo');
+console.log(prima,dopo);
+
+//creo un evento per il click dopo
+
