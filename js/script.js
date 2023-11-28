@@ -55,5 +55,7 @@ console.log(prima,dopo);
 //creo un evento per il click dopo
 
 dopo.addEventListener('click', function(){
-    
+    if (dopo === images.length+1){
+        dopo = 0;
+    }
 })
