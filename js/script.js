@@ -43,7 +43,7 @@ console.log(lista);
 
 //stamperò la variabile lista
 
-    const slider = document.querySelector('container > slider').innerHTML = lista;
+    const slider = document.querySelector('container > slider').innerHTML+=lista;
 
 
 //creo delle varibili prima e dopo per il click di cambio immagine
@@ -57,5 +57,17 @@ console.log(prima,dopo);
 dopo.addEventListener('click', function(){
     if (dopo === images.length+1){
         dopo = 0;
+    }
+    else {
+        dopo++;
+    };
+});
+
+prima.addEventListener('click' function (){
+    if (prima === 0){
+        prima = images.length -1;
+    }
+    else {
+        prima--;
     }
 })
